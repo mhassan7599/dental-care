@@ -192,9 +192,9 @@ ul {
   flex-wrap: wrap;
 }
 
-.icon_two {
+/* .icon_two {
   align-items: flex-start;
-}
+} */
 
 .icon_one .icon {
   background-color: #80b6e4;
