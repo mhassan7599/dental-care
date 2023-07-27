@@ -855,6 +855,9 @@ h3 {
   .accordion-item a {
     font-size: 1.125rem;
   }
+  .footer_main_section {
+    flex-direction: column;
+  }
   
 }
 
