@@ -25,13 +25,13 @@ ul {
 @media screen and (max-width: 1000px) {
   .container {
     max-width: 100%;
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
 }
 
 /* Navbar */
 .hero_wrapper {
-  padding-top: 50px;
+  padding-top: 3.125rem;
 }
 
 .menu-btn {
@@ -47,7 +47,7 @@ ul {
 
 .menu-list {
   display: flex;
-  gap: 60px;
+  gap: 3.75rem;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
@@ -69,7 +69,7 @@ ul {
   background-color: #0f264f;
   color: #80b6e3;
   font-family: "Poppins";
-  padding: 11px 17px;
+  padding: 0.688rem 1.063rem;
   border-radius: 14px;
   font-weight: 500;
   font-size: 1.125rem;
@@ -96,24 +96,24 @@ ul {
     align-items: center;
     justify-content: center;
     background: #80b6e3;
-    padding: 40px 0;
+    padding: 2.5rem 0;
     text-align: center;
     transition: all 0.3s ease;
   }
 
   .cancel-btn {
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 1.25rem;
+    top: 1.25rem;
   }
   .menu-list.show {
     left: 0%;
   }
   .menu-list li {
-    margin-top: 45px;
+    margin-top: 2.813rem;
   }
   .menu-list li a {
-    font-size: 23px;
+    font-size: 1.438rem;
     margin-left: -100%;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
@@ -147,7 +147,7 @@ ul {
 
 .hero_section_heading span {
   font-weight: 900;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 72px;
   font-family: "Poppins";
   color: #227cb7;
@@ -162,7 +162,7 @@ ul {
 }
 
 .hero_section_text a {
-  border-radius: 16px;
+  border-radius: 1rem;
   background-color: #0f2650;
   color: #80b6e3;
   cursor: pointer;
@@ -172,8 +172,6 @@ ul {
   text-decoration: none;
   max-width: 245px;
 }
-
-
 
 .hero_section_image img {
   width: 450px;
@@ -217,7 +215,7 @@ ul {
 .text {
   color: #0f2650;
   font-family: "Poppins";
-  font-size: 13px;
+  font-size: 0.813rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -232,14 +230,14 @@ ul {
 .content_section_headings h3 {
   text-align: center;
   color: #80b6e3;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
   text-align: center;
 }
 
 .content_section_headings h2 {
   color: #0f2650;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   text-align: center;
 }
@@ -250,7 +248,7 @@ ul {
 
 .content_section_para p {
   color: rgba(0, 0, 0, 0.74);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -260,10 +258,10 @@ ul {
 }
 
 .btn_content a {
-  border-radius: 16px;
+  border-radius: 1rem;
   background: #80b6e3;
   color: #095495;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   padding: 14px 60px;
   text-decoration: none;
@@ -280,7 +278,7 @@ ul {
 
 .new_secion_inner1 h2 {
   color: #0f2650;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   padding-bottom: 10px;
 }
@@ -310,7 +308,7 @@ ul {
 .new_secion_inner_text_para p {
   color: rgba(0, 0, 0, 0.74);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -344,7 +342,7 @@ ul {
 .project_section_box {
   width: 200px;
   flex-shrink: 0;
-  border-radius: 16px;
+  border-radius: 1rem;
   border: 1px solid #01cfc9;
   background: #fff;
   text-align: center;
@@ -383,7 +381,7 @@ ul {
 .card_content h1 {
   color: rgba(37, 138, 201, 0.86);
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -392,7 +390,7 @@ ul {
 .card_content_para h3 {
   color: #0f2650;
   font-family: Poppins;
-  font-size: 48px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -430,7 +428,7 @@ ul {
 }
 
 .card-image {
-  width: 124px;
+  width: 11.5rem;
   height: 110px;
   flex-shrink: 0;
   /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
@@ -527,7 +525,7 @@ ul {
   text-align: center;
   color: rgba(37, 138, 201, 0.86);
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -558,7 +556,7 @@ ul {
   text-align: center;
   color: #0f2650;
   font-family: Poppins;
-  font-size: 48px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -626,7 +624,7 @@ h3 {
 .accordion-item a {
   color: #0f2650;
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -699,7 +697,7 @@ h3 {
 .testimonial_headings h1 {
   color: rgba(37, 138, 201, 0.86);
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -707,7 +705,7 @@ h3 {
 
 .testimonial_headings h2 {
   color: #0f2650;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
 }
 
@@ -732,7 +730,7 @@ h3 {
 .footer_content_text p {
   color: rgba(0, 0, 0, 0.74);
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -756,7 +754,7 @@ h3 {
 .footer_content_heading h1 {
   color: #0f2650;
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -770,7 +768,7 @@ h3 {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.74);
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -816,7 +814,7 @@ h3 {
     align-items: center;
   }
   .accordion-item a {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   
 }

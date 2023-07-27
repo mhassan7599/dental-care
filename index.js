@@ -31,12 +31,16 @@ $(document).ready(function() {
 });
 
 
-// Get the elements needed
-const menuBtn = document.querySelector('.menu-btn');
-const menuList = document.querySelector('.menu-list');
+document.addEventListener("DOMContentLoaded", function () {
+  const menuBtn = document.querySelector(".menu-btn");
+  const menuList = document.querySelector(".menu-list");
+  const cancelBtn = document.querySelector(".cancel-btn");
 
-// Toggle the mobile menu on button click
-menuBtn.addEventListener('click', () => {
-  menuList.classList.toggle('show');
+  menuBtn.addEventListener("click", function () {
+    menuList.classList.add("show");
+  });
+
+  cancelBtn.addEventListener("click", function () {
+    menuList.classList.remove("show");
+  });
 });
-
