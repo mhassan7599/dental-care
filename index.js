@@ -23,6 +23,7 @@ accordions.forEach(accordion => accordion.addEventListener("click", toggleAccord
 $(document).ready(function() {
   $(".testimonial_slider").slick({
     dots: true,
+    dotsClass: 'slick-dots',
     infinite: true,
     speed: 300,
     slidesToShow: 3,

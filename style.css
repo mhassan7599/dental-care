@@ -298,7 +298,6 @@ ul {
   display: flex;
   margin-bottom: 20px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .new_secion_inner_text {
@@ -727,7 +726,14 @@ h3 {
   display: flex;
 }
 
-.footer_content_text p {
+.last_footer_one a {
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 0.938rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer_content_text a {
   color: rgba(0, 0, 0, 0.74);
   font-family: Poppins;
   font-size: 0.938rem;
@@ -735,6 +741,7 @@ h3 {
   font-weight: 400;
   line-height: normal;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 .social_icon_footer {
@@ -784,6 +791,38 @@ h3 {
   stroke-width: 2px;
   stroke: #0f2650;
 }
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slick-dots {
+  margin-top: 40px;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0; /* Hide the dot number */
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 1px solid #0F2650;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #01CFC933; /* Active dot color */
+}
+
 @media screen and (max-width: 768px) {
   .nav ul {
     flex-direction: column;
