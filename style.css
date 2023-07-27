@@ -728,7 +728,7 @@ h3 {
 
 .last_footer_one a {
   color: rgba(0, 0, 0, 0.74);
-  font-size: 0.938rem;
+  font-size: 18px;
   font-weight: 400;
   text-decoration: none;
 }
@@ -820,7 +820,15 @@ h3 {
 }
 
 .slick-dots li.slick-active button {
-  background-color: #01CFC933; /* Active dot color */
+  background-color: #01CFC9; /* Active dot color */
+}
+
+.slick-dots li:nth-child(4) {
+  display: none;
+}
+
+.slick-dots li:nth-child(5) {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
