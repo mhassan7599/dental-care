@@ -428,7 +428,7 @@ ul {
 }
 
 .card-image {
-  width: 11.5rem;
+  width: 112px;
   height: 110px;
   flex-shrink: 0;
   /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
