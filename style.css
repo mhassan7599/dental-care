@@ -161,7 +161,7 @@ ul {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.hero_section_text a {
+.hero_btn a {
   border-radius: 1rem;
   background-color: #0f2650;
   color: #80b6e3;
@@ -212,12 +212,13 @@ ul {
   color: #0f2650;
 }
 
-.text {
+.menu-link a {
   color: #0f2650;
   font-family: "Poppins";
-  font-size: 0.813rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
+  text-decoration: none;
   line-height: normal;
 }
 
