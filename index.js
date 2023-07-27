@@ -31,4 +31,12 @@ $(document).ready(function() {
 });
 
 
+// Get the elements needed
+const menuBtn = document.querySelector('.menu-btn');
+const menuList = document.querySelector('.menu-list');
+
+// Toggle the mobile menu on button click
+menuBtn.addEventListener('click', () => {
+  menuList.classList.toggle('show');
+});
 
