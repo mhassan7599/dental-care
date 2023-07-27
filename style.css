@@ -76,9 +76,17 @@ ul {
   text-decoration: none;
 }
 
+.menu-btn-show {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .menu-btn {
     display: block; 
+  }
+
+  .menu-btn-show{
+    display: block;
   }
 
   .cancel-btn {
