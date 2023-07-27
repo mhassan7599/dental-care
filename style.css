@@ -821,8 +821,8 @@ h3 {
 
 .slick-dots li button {
   font-size: 0; /* Hide the dot number */
-  width: 10px;
-  height: 10px;
+  width: 13px;
+  height: 13px;
   background-color: #fff;
   border: 1px solid #0F2650;
   border-radius: 50%;
